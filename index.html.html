@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pumba</title>
+    <link rel="shortcut icon" type="image/png" href="185a4aa2ec6b1238bf9334c18631fbef.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  
+  <link rel="stylesheet" href="main.css">
+    
+<body>
+    
+    <section>
+        <div class="circle"></div>
+            <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+                <div class="wrap">
+                    <style>
+                        /* CSS for the menu */
+                        .dropdown {
+                            position: relative;
+                            display: inline-block;
+                        }
+                
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: #f9f9f9;
+                            min-width: 160px;
+                            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                            z-index: 1;
+                        }
+                
+                        .dropdown-content a {
+                            color: black;
+                            padding: 12px 16px;
+                            text-decoration: none;
+                            display: block;
+                        }
+                
+                        .dropdown-content a:hover {
+                            background-color: #f1f1f1;
+                        }
+                
+                        .dropdown:hover .dropdown-content {
+                            display: block;
+                        }
+                        
+            
+                    
+                    </style>
+                </head>
+                <body>
+                    <ul>
+        <li><a href="index.html"><img src="185a4aa2ec6b1238bf9334c18631fbef.png" class="logo"></a></li>
+        <li><a href="#">      </a></li>
+        <li><a href="#">      </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a>Menu🡣</a>
+                <div class="dropdown-content">
+                    <a href="hats.html">Hats</a>
+                    <a href="T-shirts.html">T-shirt</a>
+                    <a href="jackets.html">Jackets</a>
+                    <a href="hoodies.html">Hoodies</a>
+                    <a href="trasuits.html">tracksuits(women)</a>
+                    <a href="tracksuits.html">tracksuits(men)</a>
+                </div>
+            </li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">      </a></li>
+            
+            
+            <div class="simplecart_area">
+                <div class="simplecart_cart">
+                    <span class="showCart">
+                        <span class="fa fa-shopping-cart"></span>
+                        <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
+                        <span class="dropdown fa fa-chevron-circle-down"></span>
+                    </span>
+                    <button style="color: white;"><a href="Google Sheet.html" style="color: white; text-decoration: none;">Checkout</a></button>
+                    <div id="cartPopover" style="display:none">
+                        <div class="simpleCart_items"></div>
+                    </div>
+                </div>
+            </div>
+      
+            
+        
+            
+        </div>
+    
+        </ul>
+          
+    </header>
+
+    <div class="content">
+        <div class="textBox">
+            <h2>Fierce Fashion <br>it's<span>Pumba</span></h2>
+            <p class="highlight">Where elegance meets the untamed. Discover dresses that embody the sleek yet powerful allure of the wild, designed to make you roar with style.</p>
+            <a href="aboutus.html">learn more</a>
+        </div>
+        <div class="imgBox">
+            <img src="thelthaaa-removebg-preview (2).png" class="Starbucks">
+        </div>
+    </div>
+    <ul class="thumb">
+        <li><img src="4189789__1_-removebg-preview.png" onclick ="imgSlider('4189789-removebg-preview.png');changeCircleColor('#11146F')"></li>
+        <li><img src="4998__1_-removebg-preview.png" onclick="imgSlider('4998-removebg-preview.png');changeCircleColor('#000000')"></li>
+        <li><img src="thelthaaa-removebg-preview (1).png" onclick="imgSlider('thelthaaa-removebg-preview (2).png');changeCircleColor('#6B6767')"></li>
+    </ul>
+    <ul class="sci">
+        <li><a href="https://www.facebook.com/profile.php?id=61558994729740"><img src="facebook.png"></a></li>
+        <li><a href="https://twitter.com/StorePumba"><img src="twitter.png"></a></li>
+        <li><a href="https://www.instagram.com/pumba__store/"><img src="instagram.png"></a></li>
+    </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.Starbucks').src = anything;
+        }
+    
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+    <div class="featurees">
+        <div class="featuree">
+            <img src="shipping.png" alt="" class="featureeIcon">
+            <span class="featureeTitle">FREE SHIPPING</span>
+            <span class="featureedDesc">Free WorldWide Shipping on all orders.</span>
+        </div>
+        <div class="featuree">
+            <img src="return.png" alt="" class="featureeIcon">
+            <span class="featureeTitle">30 DAYS RETURN</span>
+            <span class="featureedDesc">No question return refund in 14 days.</span>
+        </div>
+        <div class="featuree">
+            <img src="gift.png" alt="" class="featureeIcon">
+            <span class="featureeTitle">GIFTS</span>
+            <span class="featureedDesc">You can receive a gift with your pack.</span>
+        </div>
+        <div class="featuree">
+            <img src="contact.png" alt="" class="featureeIcon">
+            <span class="featureeTitle">CONTACT US</span>
+            <span class="featureedDesc">Keep in touch via social media and email.</span>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="titlee">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="sproduct.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="999.PNG">
+                <h4>Golden Pumba T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$22.30</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="e10.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="8888.PNG">
+                <h4>Pink Pumba T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$22.30</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="e2.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="1951.PNG">
+                <h4>Tan Pumba T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$22.30</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="e11.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="4919.PNG">
+                <h4>Purple Pumba T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$22.30</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="s2.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="s222.PNG">
+                <h4>White Pumba Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$43.60</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="s3.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="s333.PNG">
+                <h4>Pink Pumba Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$43.60</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="s1.html" class="product-link">
+                <div class="product-wrapper">
+                <img src="s111.PNG">
+                <h4>Tan Pumba Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$43.60</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="s8.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="1656.PNG">
+                <h4>Pumple Pumba Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$43.60</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+        </div>
+        <div class="small-container">
+            <h2 class="titlee">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="841.html" class="product-link">
+                        <div class="product-wrapper">
+                <img src="9999.PNG">
+                <h4>Black Pumba Beanie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p class="priceeeee">$14.93</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+        </a>
+        </div>
+            <div class="col-4">
+                <a href="l1.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="121.PNG">
+                <h4>Pumba Vintage Varsity Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$47.30</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="k3.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="133.PNG">
+                <h4>Black Pumba Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$47.30</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="c4.html" class="product-link">
+                    <div class="product-wrapper">
+                <img src="144.PNG">
+                <h4>black Pumba Cap</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="priceeeee">$16.84</p>
+                <button class="shop-button">Shop it</button>
+            </div>
+                </a>
+        </div>
+    </div>
+        </div>
+        </div>
+    
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="065-removebg-preview.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Pumba</p>
+                    <h1>Mens Tracksuit Hoodies and Sweatpants</h1>
+                    <h2>-50%</h2>
+                    <small>Get ready to upgrade your wardrobe with unbeatable discounts on men's tracksuit hoodies and sweatpants. Don't miss out on these exclusive savings!</small>
+                    <div class="textBox">
+                        <a href="tracksuits.html">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+        
+
+
+   <div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Oh, I just love shopping at that store! Their selection of men's tracksuit hoodies and black sweatpants is just what I needed. The quality is fantastic, and the prices are so reasonable.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="dfdfd.jpg">
+                <h3>Akari Thatcher</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p> Everything was marked down by a whopping 50%, and the quality of the products far exceeded my expectations. This store is definitely worth checking out for anyone looking for stylish and affordable activewear.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="fgd.jpg">
+                <h3>Loxley Solace</h3>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <div class="brands">
+        <div class="small-conainer">
+            <div class="row">
+                
+                <div class="col-5">
+                    <img src="logo-paypal.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="185a4aa2ec6b1238bf9334c18631fbef.png">
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/pumba__store?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@pumba__store?lang=en">Tiktok</a></li>
+                        <li><a href="https://pin.it/3hLryLfCO">Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Contact</h3>
+                    <h3> Phone </h3>
+                    <li>(+216)93646357</li>
+                    <h3>  </h3>
+                    <h3> Email: </h3>
+                    <li>Pumbastore29@gmail.com</li>
+
+                </div>
+            </div>
+            <p class="copyright">copyright 2024</p>
+        </div>
+    </div>
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="simpleCart.min.js"></script>
+    <script src="handlebars.min.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
